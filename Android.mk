@@ -12,6 +12,7 @@ STLPORT_WHITELIST := \
     manta \
     shamu \
     tilapia \
+    osprey
 
 ifneq (,$(filter $(TARGET_DEVICE),$(STLPORT_WHITELIST)))
 
